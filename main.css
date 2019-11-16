@@ -1,36 +1,62 @@
 body{
-    background-color: #f3e2b3;
-    overflow: hidden;
+    background-color: 	black;
+    overflow-x: hidden;
 }
 #pp{
     width: 180px;
     height: 180px;
     margin-left: 30px;
     border-radius: 100%;
-    margin-top: -90px;
+    margin-top: -190px;
     border-style: solid;
     border-color: white;
     border-width: 5px;
     box-shadow: 3px 3px 3px;
 }
 #header{
-    height: 553px;
-    background-color: black;
+    height: 733px;
+    background: url("/bg/techbg.mp4");
     width: 1518px;
     margin-top: -8px;
+    margin-left: -8px;
 }
-#name{
+#bgtech{
     position: absolute;
-    color: black;
+    width: 1536px;
+    margin-top: -228px;
+    z-index: -1;
+}
+#menu{
+    position: absolute;
+    margin-left: 230px;
+    margin-top: -95px;
+    width: 1275px;
+}
+table td{
+    color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
-    margin-left: 10px;
+    background-color: #02577a;
 }
-#course{
+.menu2:hover{
+    background-color: cadetblue;
+}
+.menu2{
+    text-align: center;
+    width: 20%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    font-size: 23px;
+
+}
+iframe{
     position: absolute;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
-    margin-left: 230px;
-    margin-top: -85px;
+    margin-top: -30px;
+    width: 1250px;
+    height: 600px;
+    margin-left: 30px;
 }
