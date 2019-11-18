@@ -1,2 +1,2 @@
 var vid = document.getElementById("bgtech");
-vid.playbackRate = 0.7;
+vid.playbackRate = 0.5;

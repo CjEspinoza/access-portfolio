@@ -11,7 +11,10 @@ body{
     border-style: solid;
     border-color: white;
     border-width: 5px;
-    box-shadow: 3px 3px 3px;
+    box-shadow: 0px 15px 15px 3px;
+}
+#pp:hover{
+    border-color: #0492cf;
 }
 #header{
     height: 733px;
@@ -59,4 +62,48 @@ iframe{
     width: 1250px;
     height: 600px;
     margin-left: 30px;
+}
+#espi{
+    font-family: cube;
+    font-size: 60px;
+    position: absolute;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#left-banner{
+    width: 170px;
+    height: 580px;
+    position: absolute;
+    background-color: #02577a;
+    margin-left: 43px;
+    margin-top: -80px;
+    z-index: -1;
+}
+#left-banner:hover{
+    background-color: #01648f;
+}
+.info{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#nn{
+    font-size: 80px;
+    font-family: dimis;
+}
+@font-face{
+    font-family: cube;
+    src: url(/fonts/Cube.ttf);
+}
+@font-face{
+    font-family: dimis;
+    src: url(/fonts/dimis.TTF);
+}
+
+hr{
+    background-color: black;
+    border-color: black;
+}
+.icon{
+    width: 60px;
+    height: 60px;
 }
