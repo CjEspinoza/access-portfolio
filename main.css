@@ -32,7 +32,7 @@ body{
 #menu{
     position: absolute;
     margin-left: 230px;
-    margin-top: -95px;
+    margin-top: -115px;
     width: 1275px;
 }
 table td{
@@ -59,9 +59,10 @@ a:hover{
 iframe{
     position: absolute;
     margin-top: -30px;
-    width: 1250px;
+    width: 1270px;
     height: 600px;
-    margin-left: 30px;
+    margin-left: 10px;
+    border: none;
 }
 #espi{
     font-family: cube;
@@ -87,7 +88,7 @@ iframe{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #nn{
-    font-size: 80px;
+    font-size: 40px;
     font-family: dimis;
 }
 @font-face{
@@ -106,4 +107,16 @@ hr{
 .icon{
     width: 60px;
     height: 60px;
+}
+table img{
+    width: 50px;
+    height: 50px;
+}
+button{
+    width: 250px;
+    background-color: #02577a;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #01648f;
 }
