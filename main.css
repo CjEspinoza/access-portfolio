@@ -18,7 +18,7 @@ body{
 }
 #header{
     height: 733px;
-    background: url("/bg/techbg.mp4");
+    background: url("bg/techbg.mp4");
     width: 1518px;
     margin-top: -8px;
     margin-left: -8px;
@@ -93,11 +93,11 @@ iframe{
 }
 @font-face{
     font-family: cube;
-    src: url(/fonts/Cube.ttf);
+    src: url(fonts/Cube.ttf);
 }
 @font-face{
     font-family: dimis;
-    src: url(/fonts/dimis.TTF);
+    src: url(fonts/dimis.TTF);
 }
 
 hr{
