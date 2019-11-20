@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Email Me</title>
+</head>
+<body>
+    <img src="/img/AccessSHIRT.png" id="logo">
+    <center><p>If you have any suggestions on how to make the website better, please message me here.</p><br><br></center>
+        <form class="portfolio-form">
+                <center><div class="form-row">
+                    <label class="form-label-subject">Subject:</label><br>
+                        <input type="text" id="mailSubject" class="form-input-text"><br><br>
+                    <label class="form-label-message">Message:</label><br>
+                        <textarea id="mailMessage" class="form-input-textarea" cols="50" rows="1"></textarea><br>
+                        <center><a onmouseover="appendMailTo()" id="sendMail" href="mailto:espinoza.cj3@gmail.com">Submit</a></center>
+                </div></center>
+            </form>
+</body>
+<style>
+    body{
+        overflow: hidden;
+    }
+    .form-label-subject{
+        color:white;
+        margin-left: 50px;
+        font-size: 25px;
+    }
+    .form-label-message{
+        margin-left: 55px;
+        color: white;
+        font-size: 25px;
+    }
+    #sendMail{
+    background-color:white;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    margin-left: 150px;
+    width: 100px;
+    height: 30px;
+    font-size: 22px;
+}
+    #mailSubject{
+        width: 400px;
+        margin-left: 400px;
+    }
+    #mailMessage{
+        height: 300px;
+        width: 400px;
+        margin-left: 400px;
+    }
+    #logo{
+        position: absolute;
+        width: 800px;
+        margin-left: -50px;
+        margin-top: 50px;
+        z-index: -1;
+    }
+    p{
+        color: white;
+        font-size: 20px;
+    }
+    #sendMail:hover{
+        color: white;
+        background-color: #02577a;
+    }
+</style>
+<script>
+function appendMailTo(){
+    let message = document.getElementById("mailMessage").value;
+    let subject = document.getElementById("mailSubject").value;
+    console.log(subject);
+    console.log(message);
+    
+    let mailtoAttr = document.getElementById("sendMail");
+    mailtoAttr.setAttribute("href", "mailto:espinoza.cj3@gmail.com?subject="+subject+"&body="+message);
+}
+</script>
+</html>

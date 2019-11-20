@@ -1,0 +1,19 @@
+{
+  "name": "access-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CjEspinoza/access-portfolio.git"
+  },
+  "author": "CjEspinoza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CjEspinoza/access-portfolio/issues"
+  },
+  "homepage": "https://github.com/CjEspinoza/access-portfolio#readme"
+}
