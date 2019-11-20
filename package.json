@@ -1,7 +1,6 @@
 {
   "name": "access-portfolio",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
   "homepage": "https://github.io/CjEspinoza/access-portfolio",
   "scripts": {
@@ -19,5 +18,7 @@
   },
   "dependencies": {
     "gh-pages": "^2.1.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
