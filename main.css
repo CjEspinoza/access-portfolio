@@ -1,0 +1,122 @@
+body{
+    background-color: 	black;
+    overflow-x: hidden;
+}
+#pp{
+    width: 180px;
+    height: 180px;
+    margin-left: 30px;
+    border-radius: 100%;
+    margin-top: -190px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    box-shadow: 0px 15px 15px 3px;
+}
+#pp:hover{
+    border-color: #0492cf;
+}
+#header{
+    height: 733px;
+    background: url("/bg/techbg.mp4");
+    width: 1518px;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+#bgtech{
+    position: absolute;
+    width: 1536px;
+    margin-top: -228px;
+    z-index: -1;
+}
+#menu{
+    position: absolute;
+    margin-left: 230px;
+    margin-top: -115px;
+    width: 1275px;
+}
+table td{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: #02577a;
+}
+.menu2:hover{
+    background-color: cadetblue;
+}
+.menu2{
+    text-align: center;
+    width: 20%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    font-size: 23px;
+
+}
+iframe{
+    position: absolute;
+    margin-top: -30px;
+    width: 1270px;
+    height: 600px;
+    margin-left: 10px;
+    border: none;
+}
+#espi{
+    font-family: cube;
+    font-size: 60px;
+    position: absolute;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#left-banner{
+    width: 170px;
+    height: 580px;
+    position: absolute;
+    background-color: #02577a;
+    margin-left: 43px;
+    margin-top: -80px;
+    z-index: -1;
+}
+#left-banner:hover{
+    background-color: #01648f;
+}
+.info{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#nn{
+    font-size: 40px;
+    font-family: dimis;
+}
+@font-face{
+    font-family: cube;
+    src: url(/fonts/Cube.ttf);
+}
+@font-face{
+    font-family: dimis;
+    src: url(/fonts/dimis.TTF);
+}
+
+hr{
+    background-color: black;
+    border-color: black;
+}
+.icon{
+    width: 60px;
+    height: 60px;
+}
+table img{
+    width: 50px;
+    height: 50px;
+}
+button{
+    width: 250px;
+    background-color: #02577a;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #01648f;
+}
